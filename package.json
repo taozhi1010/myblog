@@ -1,0 +1,23 @@
+{
+    "name": "blog-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./bin/www.js",
+    "bin": {
+        "blog-1": "www.js"
+    },
+    "dependencies": {
+        "mysql": "^2.17.1",
+        "nodemon": "^1.19.2"
+    },
+    "devDependencies": {
+        "across-env": "^2.0.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "NODE_ENV=dev nodemon ./bin/www.js",
+        "production": "NODE_ENV=production nodemon ./bin/www.js"
+    },
+    "author": "taozhi",
+    "license": "ISC"
+}
